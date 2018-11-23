@@ -1,17 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-html{
+html {
   scroll-behavior: auto;
 }
 
 body {
   height: 10000px;
   color: rgb(37, 37, 37);
+}
+
+a {
+  text-decoration: none;
 }
 
 .type {
@@ -48,16 +51,16 @@ h1 {
 }
 
 .button {
-    background-color: rgb(0, 0, 0);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    margin: 0 auto;
-    cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -92,7 +95,7 @@ h1 {
   padding-bottom: 1%;
 }
 
-.gallery p  {
+.gallery p {
   font-family: 'PT Mono', monospace;
   width: 50%;
   font-size: 18px;
